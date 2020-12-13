@@ -93,7 +93,7 @@ MonoBehaviour:
     y: 30
     width: 1565
     height: 971
-  m_MinSize: {x: 908, y: 442}
+  m_MinSize: {x: 908, y: 421}
   m_MaxSize: {x: 22003, y: 10021}
   vertical: 0
   controlID: 151
@@ -139,10 +139,10 @@ MonoBehaviour:
     y: 0
     width: 774
     height: 971
-  m_MinSize: {x: 201, y: 442}
-  m_MaxSize: {x: 4001, y: 8042}
+  m_MinSize: {x: 201, y: 421}
+  m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
-  controlID: 61
+  controlID: 36
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,8 +268,8 @@ MonoBehaviour:
     y: 472
     width: 774
     height: 499
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 20
-    y: 564
+    y: 553
     width: 773
     height: 478
   m_ViewDataDictionary: {fileID: 0}
@@ -477,9 +477,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fc460000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 10e6ffff92e6ffffa6e7ffff00eaffff3eebffffb4ebffff2aecffff32edffffa8edffffbceeffff30efffffb2efffffe6f0ffff5ef1ffffd4f1ffff52f2ffffccf2ffff40f3ffff48f4ffffbef4ffff6afbffff00000000
+      m_ExpandedIDs: 6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -580,19 +580,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - "Assets/\uBCF4\uC11D"
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - "Assets/\uBCF4\uC11D"
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\git\\\uBC31\uC5C5\\2\uCC28\uBC31\uC5C5\\Wipeout"
+  m_LastProjectPath: C:\git\GameEngine2\Wipeout
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: bc460000
-    m_LastClickedID: 18108
+    m_SelectedIDs: b0460000
+    m_LastClickedID: 18096
     m_ExpandedIDs: 00000000fc3e000066460000684600006a4600006c4600006e4600007046000072460000744600007646000078460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -859,7 +859,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 8.949001
     speed: 2
-    m_Value: 9.370682
+    m_Value: 8.949001
   m_Ortho:
     m_Target: 0
     speed: 2
