@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: "Assets/Scenes/Main\uB450\uD658.unity"
-=======
-- path: Assets/Scenes/Ending.unity
->>>>>>> parent of 4ffa40c6... 12-13
   isLoaded: 1
   isActive: 1
   isSubScene: 0
