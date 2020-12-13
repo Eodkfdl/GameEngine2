@@ -127,16 +127,9 @@ public class PlayerController : MonoBehaviour
         {
             // 조작이 없으면 서서히 멈춘다.
             move = Vector3.MoveTowards(move, Vector3.zero, (1 - inputMoveXZMgnitude) * runSpeed * ratio);
-
-            //멈추는 애니메이션
-            anim.SetTrigger("Stop");
         }
         float speed = move.sqrMagnitude;
-        anim.SetFloat("MoveStart", speed);      
-        //속도에 맞게 움직이게 해달란 의미인가??--> 움직이는 방향에 대해서도 궁금? 
-        //방향에 따라 다른 애니메이션?(이미 만들어둠), 안쓴다면 어떻게?
-        //블랜드 트리를 이용해서 속도에 따라 애니메이션 블랜딩 가능함, 그것 말고 45도 각도로 움직이는 것도 만들어둠.
-  
+        anim.SetFloat("Speed", speed);
         move.y = tempMoveY;    //y값 복구
     }
 
