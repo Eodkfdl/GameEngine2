@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class EventSubscriber : MonoBehaviour
+public class Select : MonoBehaviour
 {
-    public Button startButton;
-    public Button endButton;
+    public Button a;
+    public Button b;
+    public Button c;
+    public Button d;
     private float startTime = 0f;
     private bool isPressedStart = false;
 
@@ -18,8 +20,10 @@ public class EventSubscriber : MonoBehaviour
         //startButton = GetComponent<Button>();
         //endButton = GetComponent<Button>();
         //// 스타트 버튼이 클릭되었을 때 유니티 메서드 호출
-        startButton.onClick.AddListener(OnClickedStart);
-        endButton.onClick.AddListener(OnClickedExit);
+        a.onClick.AddListener(OnClickeda);
+        b.onClick.AddListener(OnClickedb);
+        c.onClick.AddListener(OnClickedc);
+        d.onClick.AddListener(OnClickedd);
     }
 
     // Update is called once per frame
@@ -30,20 +34,28 @@ public class EventSubscriber : MonoBehaviour
             startTime += Time.deltaTime * 3f;
             if (startTime >= 3.5f)
             {
-                SceneManager.LoadScene("Select");
+                SceneManager.LoadScene("Main");
             }
         }
     }
 
     //
-    private void OnClickedStart()
+    private void OnClickeda()
     {
         // loadScene();
         isPressedStart = true;
     }
-    private void OnClickedExit()
+    private void OnClickedb()
     {
-        Application.Quit();
+        isPressedStart = true;
     }
-
+    private void OnClickedc()
+    {
+        // loadScene();
+        isPressedStart = true;
+    }
+    private void OnClickedd()
+    {
+        isPressedStart = true;
+    }
 }
