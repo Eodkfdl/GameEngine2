@@ -20,8 +20,13 @@ MonoBehaviour:
     height: 997
   m_ShowMode: 4
   m_Title: 
+<<<<<<< HEAD
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
+=======
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 875, y: 763}
+>>>>>>> parent of 0815da9... 세이브
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -32,6 +37,61 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 501
+    width: 1253
+    height: 271
+  m_MinSize: {x: 230, y: 271}
+  m_MaxSize: {x: 10000, y: 10021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1253
+    height: 772
+  m_MinSize: {x: 679, y: 713}
+  m_MaxSize: {x: 12004, y: 18063}
+  vertical: 1
+  controlID: 108
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+>>>>>>> parent of 0815da9... 세이브
   m_EditorHideFlags: 1
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -44,9 +104,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1920
     height: 997
   m_MinSize: {x: 875, y: 300}
+=======
+    width: 1253
+    height: 822
+  m_MinSize: {x: 875, y: 763}
+>>>>>>> parent of 0815da9... 세이브
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -96,8 +162,13 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 148
 --- !u!114 &5
+=======
+  controlID: 109
+--- !u!114 &7
+>>>>>>> parent of 0815da9... 세이브
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,8 +213,13 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 34
 --- !u!114 &7
+=======
+  controlID: 37
+--- !u!114 &9
+>>>>>>> parent of 0815da9... 세이브
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -302,9 +378,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: c63e0000
       m_LastClickedID: 0
       m_ExpandedIDs: 6afbffff
+=======
+      m_SelectedIDs: 783f0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 56fbffff
+>>>>>>> parent of 0815da9... 세이브
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -411,6 +493,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: D:\KKB_GameEngine\GameEngine2\Wipeout
   m_LockTracker:
     m_IsLocked: 0
@@ -419,6 +502,16 @@ MonoBehaviour:
     m_SelectedIDs: 063b0000
     m_LastClickedID: 15110
     m_ExpandedIDs: 00000000063b0000663e0000683e00006a3e00006c3e00006e3e0000703e0000723e0000743e0000763e0000783e00007a3e000000ca9a3b
+=======
+  m_LastProjectPath: C:\git\GameEngine2\Wipeout
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: 223b0000
+    m_LastClickedID: 15138
+    m_ExpandedIDs: 00000000223b0000963e0000983e00009a3e00009c3e00009e3e0000a03e0000a23e0000a43e0000a63e0000a83e0000aa3e0000ac3e0000
+>>>>>>> parent of 0815da9... 세이브
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -446,7 +539,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000063b0000663e0000683e00006a3e00006c3e00006e3e0000703e0000723e0000743e0000763e0000783e00007a3e0000
+=======
+    m_ExpandedIDs: 00000000223b0000963e0000983e00009a3e00009c3e00009e3e0000a03e0000a23e0000a43e0000a63e0000a83e0000aa3e0000ac3e0000
+>>>>>>> parent of 0815da9... 세이브
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -630,9 +727,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 25.33313, y: 140.58626, z: -141.61191}
     speed: 2
     m_Value: {x: 25.33313, y: 140.58626, z: -141.61191}
+=======
+    m_Target: {x: 22.373672, y: 49.00773, z: 303.50366}
+    speed: 2
+    m_Value: {x: 22.373672, y: 49.00773, z: 303.50366}
+>>>>>>> parent of 0815da9... 세이브
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -680,11 +783,19 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.036799215, y: 0.91959834, z: -0.088840894, w: -0.38091078}
     speed: 2
+<<<<<<< HEAD
     m_Value: {x: -0.036932416, y: 0.91902554, z: -0.08878555, w: -0.3822896}
   m_Size:
     m_Target: 433.57562
     speed: 2
     m_Value: 414.9049
+=======
+    m_Value: {x: -0.122616716, y: 0.8292918, z: -0.20057832, w: -0.50696015}
+  m_Size:
+    m_Target: 22.156725
+    speed: 2
+    m_Value: 23.20076
+>>>>>>> parent of 0815da9... 세이브
   m_Ortho:
     m_Target: 0
     speed: 2
