@@ -259,18 +259,16 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <HintPath>D:/KKB_GameEngine/GameEngine2/Wipeout/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>D:/KKB_GameEngine/GameEngine2/Wipeout/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
-=======
       <HintPath>C:/git/GameEngine2/Wipeout/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/git/GameEngine2/Wipeout/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
->>>>>>> parent of 0815da9... 세이브
+=======
+      <HintPath>C:/Users/ADMIN/Desktop/GameEngine/GameEngine2/Wipeout/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Users/ADMIN/Desktop/GameEngine/GameEngine2/Wipeout/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+>>>>>>> parent of 0e36998... 12-13
 =======
       <HintPath>C:/Users/ADMIN/Desktop/GameEngine/GameEngine2/Wipeout/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
@@ -633,9 +631,7 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <HintPath>D:/KKB_GameEngine/GameEngine2/Wipeout/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/ADMIN/Desktop/GameEngine/GameEngine2/Wipeout/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
 =======
       <HintPath>C:/Users/ADMIN/Desktop/GameEngine/GameEngine2/Wipeout/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
 >>>>>>> parent of 0e36998... 12-13
@@ -695,9 +691,6 @@
       <HintPath>C:/Users/ADMIN/Desktop/GameEngine/GameEngine2/Wipeout/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-<<<<<<< HEAD
-      <HintPath>D:/KKB_GameEngine/GameEngine2/Wipeout/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-=======
       <HintPath>C:/git/GameEngine2/Wipeout/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
@@ -756,7 +749,9 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/git/GameEngine2/Wipeout/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
->>>>>>> parent of 0815da9... 세이브
+=======
+      <HintPath>C:/Users/ADMIN/Desktop/GameEngine/GameEngine2/Wipeout/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+>>>>>>> parent of 0e36998... 12-13
 =======
       <HintPath>C:/Users/ADMIN/Desktop/GameEngine/GameEngine2/Wipeout/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
 >>>>>>> parent of 0e36998... 12-13
@@ -770,7 +765,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
