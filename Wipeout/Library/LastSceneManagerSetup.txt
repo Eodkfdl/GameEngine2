@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/Scenes/\uB450\uD658main.unity"
+- path: Assets/Scenes/Main_add.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
