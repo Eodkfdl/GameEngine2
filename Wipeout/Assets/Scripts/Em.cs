@@ -57,24 +57,24 @@ public class Em : MonoBehaviour
             tr.gameObject.SetActive(true);
             //저장된이름
             name1.text = GameData.Name1;
-            time1.text = GameData.Time1.ToString();
+            time1.text = string.Format("{0:N2}", GameData.Time1);
         }
         if (GameData.Selected2 > -1)
         {
             //선택한 캐릭터모델만 보여주기
-            tr = obj2.transform.Find(GameData.Selected1.ToString());
+            tr = obj2.transform.Find(GameData.Selected2.ToString());
             tr.gameObject.SetActive(true);
             //저장된이름
             name2.text = GameData.Name2;
-            time2.text = GameData.Time2.ToString();
+            time2.text = string.Format("{0:N2}", GameData.Time2);
         }
         if (GameData.Selected3 > -1)
         { //선택한 캐릭터모델만 보여주기
-            tr = obj3.transform.Find(GameData.Selected1.ToString());
+            tr = obj3.transform.Find(GameData.Selected3.ToString());
             tr.gameObject.SetActive(true);
             //저장된이름
             name3.text = GameData.Name3;
-            time3.text = GameData.Time3.ToString();
+            time3.text = string.Format("{0:N2}", GameData.Time3);
 
         }
     }
@@ -83,7 +83,7 @@ public class Em : MonoBehaviour
     void Update()
     {
         g_time += Time.deltaTime;
-        if (g_time>5) {
+        if (g_time>10) {
             //랭킹저장해주기
             if (GameData.Selected1 > -1)
             {
@@ -108,7 +108,7 @@ public class Em : MonoBehaviour
 
             }
             PlayerPrefs.Save();
-            SceneManager.LoadScene("Start");
+            SceneManager.LoadScene(0);
         }
     }
 

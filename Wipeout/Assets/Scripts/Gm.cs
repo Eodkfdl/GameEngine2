@@ -44,6 +44,7 @@ public class Gm : MonoBehaviour
                 break;
             case 1://포린
                 tr = obj.transform.Find("1");
+
                 tr.gameObject.SetActive(true);
                 break;
             case 2://셰리
@@ -96,7 +97,7 @@ public class Gm : MonoBehaviour
             {
                 GameData.rank = 1;
             }
-            SceneManager.LoadScene("Ending");
+            SceneManager.LoadScene(3);
         } 
     }
 
