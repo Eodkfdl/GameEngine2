@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: "Assets/Scenes/Start\uB450\uD658.unity"
+    path: Assets/Scenes/Start.unity
     guid: 7e11f118041fbb64b9b2d4132e356b62
   - enabled: 1
-    path: "Assets/Scenes/Select\uB450\uD658.unity"
+    path: Assets/Scenes/Select.unity
     guid: f0fab102c0bed0240bf27014e0258eb5
   - enabled: 1
-    path: "Assets/Scenes/Main\uB450\uD658.unity"
-    guid: 188a6c9d316871d4ea89914e31193291
+    path: "Assets/Scenes/\uB450\uD658main.unity"
+    guid: d60743289b459e54fb24c64f586d0629
   m_configObjects: {}

@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BallObstacle.cs" />
     <Compile Include="Assets\Scripts\Data.cs" />
+    <Compile Include="Assets\Scripts\Em.cs" />
     <Compile Include="Assets\Scripts\EventSubscriber.cs" />
     <Compile Include="Assets\Scripts\Gm.cs" />
     <Compile Include="Assets\Scripts\Obstacle.cs" />

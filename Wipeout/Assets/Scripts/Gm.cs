@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class Gm : MonoBehaviour
@@ -18,14 +19,42 @@ public class Gm : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        u_name = GameData.name;
+        selected= GameData.selected;
         G_time = 0;
         P_time = 0;
         GameStatus = 0;
-        obj = GameObject.Find("timer");
-        t_time = obj.GetComponent<TextMeshProUGUI>();
-        obj = GameObject.Find("r_timer");
-        r_time = obj.GetComponent<TextMeshProUGUI>();
-        
+        Transform tr = obj.transform.Find("0");
+        tr.gameObject.SetActive(false);
+        tr = obj.transform.Find("1");
+        tr.gameObject.SetActive(false);
+        tr = obj.transform.Find("2");
+        tr.gameObject.SetActive(false);
+        tr = obj.transform.Find("3");
+        tr.gameObject.SetActive(false);
+        //    obj = GameObject.Find("timer");
+        //t_time = obj.GetComponent<TextMeshProUGUI>();
+        // obj = GameObject.Find("r_timer");
+        //  r_time = obj.GetComponent<TextMeshProUGUI>();
+        switch (selected)
+        {
+            case 0://무스타
+                tr = obj.transform.Find("0");
+                tr.gameObject.SetActive(true);
+                break;
+            case 1://포린
+                tr = obj.transform.Find("1");
+                tr.gameObject.SetActive(true);
+                break;
+            case 2://셰리
+                tr = obj.transform.Find("2");
+                tr.gameObject.SetActive(true);
+                break;
+            case 3://이비
+                tr = obj.transform.Find("3");
+                tr.gameObject.SetActive(true);
+                break;
+        }
     }
 
     // Update is called once per frame
@@ -52,6 +81,24 @@ public class Gm : MonoBehaviour
 
                 break;
         }
+        if (G_time > 5) {//종료조건 여기다 넣어주기
+            GameData.time=P_time;
 
+            if (GameData.Time3 > GameData.time)
+            {
+                GameData.rank = 3;
+            }
+            if (GameData.Time2 > GameData.time)
+            {
+                GameData.rank = 2;
+            }
+            if (GameData.Time1 > GameData.time)
+            {
+                GameData.rank = 1;
+            }
+            SceneManager.LoadScene("Ending");
+        } 
     }
+
+
 }
